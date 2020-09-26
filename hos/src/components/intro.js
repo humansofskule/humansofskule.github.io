@@ -130,7 +130,7 @@ function Intro() {
   
     return ( 
     <div className = "Intro" >
-        <img src={logo} ></img>
+        <img src={logo} class="titleImage"></img>
         <h1 class='display-4 heading'>Welcome to HumansOfSkule!</h1>
         <h2 class="subHeading">Click on the pictures to find out the story behind</h2>
         <Gallery photos={photos} onClick={openLightbox} />

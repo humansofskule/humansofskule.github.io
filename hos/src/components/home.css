@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-.footer {
-margin-top: 20px;
-font-family: 'Playfair Display', serif;
-}
-
-.row {
-padding-left: 100px;
-padding-right: 100px;
-}
-
-.footHeader {
-font-size: 2em;
-font-style: italic;
-font-family: 'Playfair Display', serif;
-}
-
-.col {
-font-size: 1.5em;
-}
-
 @media(max-width: 1500px) and (min-width: 1100px) {
     .home {
         font-size: 2.5rem;
@@ -32,21 +12,3 @@ font-size: 1.5em;
     }
   }
   
-  @media(min-width: 1024px) {
-    .footer {
-        font-size: 1rem;
-    }
-  
-  }
-  
-  @media (max-width: 1024px) and (min-width: 600px) {
-    .footer {
-        font-size: 0.75rem;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .footer {
-        font-size: 0.5rem;
-    }
-  }

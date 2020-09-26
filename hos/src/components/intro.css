@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
+.titleImage {
+    margin-top: -80px;
+}
+
 .Intro {
     background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
     padding-bottom: 25px;
