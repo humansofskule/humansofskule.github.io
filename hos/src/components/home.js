@@ -52,7 +52,7 @@ const Home = () => {
             </Styles>
             <Intro />
             <div  class='footer' style={style}>
-                <p class='footHeader'>Click on the icons to find out more!</p>
+                <p class='footHeader'>Click on the icons to check us out!</p>
                 <div class='row'>
                     <div class='col'>
                         Facebook: <a href='https://www.facebook.com/humans.of.skule' target='blank'><FontAwesomeIcon icon={faFacebook} style={{color:'white'}} size='1.5x'/></a>    

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 .Intro {
     background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
     padding-bottom: 25px;
@@ -8,37 +10,20 @@
     font-weight: 400!important;
     margin-bottom: 30px;
     margin-top: -55px;
+    font-family: 'Playfair Display', serif;
 }
 
 .subHeading {
     color: red;
-    font-family: cursive;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
 }
 
 .content {
     background-color: black;
-    font-family: 'sans-serif';
+    font-family: 'Playfair Display', serif;
     color: white;
     margin-top: 20px;
-}
-
-.footer {
-    margin-top: 20px;
-}
-
-.row {
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: 'sans-serif';
-}
-
-.footHeader {
-    font-size: 2em;
-}
-
-.col {
-    font-size: 1.5em;
 }
 
 .imageIndent {

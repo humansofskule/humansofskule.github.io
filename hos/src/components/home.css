@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 .footer {
 margin-top: 20px;
+font-family: 'Playfair Display', serif;
 }
 
 .row {
 padding-left: 100px;
 padding-right: 100px;
-font-family: 'sans-serif';
 }
 
 .footHeader {
 font-size: 2em;
 font-style: italic;
+font-family: 'Playfair Display', serif;
 }
 
 .col {
