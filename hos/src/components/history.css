@@ -1,7 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 .History {
-    background-color: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
+    background-color: rgba(242,136,75,1);
     color: white;
-    font-family: 'Playfair Display', serif;
+    width: 100;
+}
+
+.headerHistory {
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+}
+
+.img_position1 {
+    width: 200px;
+    float: left;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.img_position2 {
+    width: 400px;
+    float: right;
+    margin: 5px;
+}
+
+.founderMessage {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
 }

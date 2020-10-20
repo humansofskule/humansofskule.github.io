@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
 
 .titleImage {
     margin-top: -80px;
@@ -11,23 +11,10 @@
 
 .heading {
     color: white;
-    font-weight: 400!important;
+    font-weight: 500!important;
     margin-bottom: 30px;
     margin-top: -55px;
-    font-family: 'Playfair Display', serif;
-}
-
-.subHeading {
-    color: red;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-}
-
-.content {
-    background-color: black;
-    font-family: 'Playfair Display', serif;
-    color: white;
-    margin-top: 20px;
+    font-family: 'Miriam Libre', sans-serif;
 }
 
 .imageIndent {

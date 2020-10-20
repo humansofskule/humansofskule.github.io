@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+.Year {
+    background-color: rgba(242,136,75,1);
+    color: black;
+    width: 100;
+}
+
+.headerYear {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.spacing {
+    margin: 50px;
+}
+
+.positionCardtext {
+    margin-top: 40px;
+}
