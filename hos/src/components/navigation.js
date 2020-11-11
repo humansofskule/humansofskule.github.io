@@ -29,7 +29,7 @@ function Navigation() {
                     <Nav.Item><Nav.Link href="/aboutus">About Us</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/history">History</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/gallery">Gallery</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="#">Join Us</Nav.Link></Nav.Item>
+                    {/* <Nav.Item><Nav.Link href="#">Join Us</Nav.Link></Nav.Item> */}
                 </Nav>
                 <Nav className="ml-auto">
                     <Nav.Item><Nav.Link href="https://www.facebook.com/humans.of.skule" target='blank'><FontAwesomeIcon icon={faFacebook} style={{color:'white'}} size='1.5x'/></Nav.Link></Nav.Item>

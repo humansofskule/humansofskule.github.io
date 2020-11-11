@@ -12,7 +12,7 @@ const Year1 = () => {
 
     useEffect(() => {
         Tabletop.init({
-        key: '1vaGU7imHuio_64wxmvu-4CMQ_jNQmz4MuS9FC_R-K34',
+        key: '',
         simpleSheet: true
         })
         .then((data) => setphotos(data.map(x => (
@@ -40,7 +40,6 @@ const Year1 = () => {
                             </Card.Body>
                             </Card>
                         </CardDeck>
-
                     )    
                 }
             </div>

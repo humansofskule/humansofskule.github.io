@@ -5,7 +5,7 @@
     font-family: 'Miriam Libre', sans-serif;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 50px;
+    padding-top: 70px;
 }
 
 .aboutuscontent {
@@ -19,6 +19,7 @@
 .AboutUs {
     background-color: rgba(242,136,75,1);
     color: white;
+    min-height: 100vh;
 }
 
 .list {

@@ -13,7 +13,6 @@ const AboutUs = () => {
             <h2 class="aboutuscontent">Meet our Team</h2>
             <ul class="list">
                 <li>Darsh Jain - President</li>
-                <li>Prerna Anand - Webmaster</li>
             </ul>
             <Footer />
         </div>

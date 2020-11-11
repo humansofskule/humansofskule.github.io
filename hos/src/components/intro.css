@@ -6,7 +6,8 @@
 
 .Intro {
     background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
-    padding-bottom: 25px;
+    padding-bottom: 75px;
+    min-height: 100vh;
 }
 
 .heading {

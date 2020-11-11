@@ -26,8 +26,8 @@ function Intro() {
         <div class='footer' style={style}>
             <div class='row'>
                 <div class='col positionFooter'>
-                    <a href='https://www.facebook.com/humans.of.skule' target='blank'><FontAwesomeIcon icon={faFacebook} style={{color:'white'}} size='3x'/></a>    
-                    <a class='footerPosition' href='https://www.instagram.com/humans.of.skule/' target='blank'><FontAwesomeIcon icon={faInstagram} style={{color:'white'}} size='3x'/></a>
+                    <a href='https://www.facebook.com/humans.of.skule' target='blank'><FontAwesomeIcon icon={faFacebook} style={{color:'white'}} size='2x'/></a>    
+                    <a class='footerPosition' href='https://www.instagram.com/humans.of.skule/' target='blank'><FontAwesomeIcon icon={faInstagram} style={{color:'white'}} size='2x'/></a>
                 </div>
             </div>
     </div>
