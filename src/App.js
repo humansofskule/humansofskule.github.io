@@ -16,7 +16,7 @@ import Year6 from "./components/year6";
 class App extends Component {
     render() {
         return ( 
-            <BrowserRouter basename="/components">
+            <BrowserRouter basename=".">
                 <div>       
                     <Switch>
                         <Route path="/" component={Home} exact/>
