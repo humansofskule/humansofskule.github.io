@@ -26,10 +26,20 @@
     font-size: 1.5rem;
     margin-left: 20px;
     font-family: 'Miriam Libre', sans-serif;
+    margin-bottom: 50px;
 }
 
 .message {
     text-align: center;
     font-family: 'Miriam Libre', sans-serif;
     margin-bottom: 40px;
+}
+
+.video_position {
+    padding-left: 125px;
+    padding-bottom: 50px;
+}
+
+.spacing {
+    margin: 50px;
 }

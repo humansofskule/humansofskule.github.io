@@ -2,7 +2,7 @@ import React, { useEffect, useState }  from 'react';
 import './year.css';
 import Footer from './footer';
 import Navigation from './navigation';
-import { Card, CardDeck } from 'react-bootstrap'; 
+import { Card, CardColumns } from 'react-bootstrap'; 
 import { Image } from 'react-bootstrap';
 import Tabletop from 'tabletop';  
 
@@ -28,21 +28,20 @@ const Year1 = () => {
             <Navigation />
             <div class="display-2 headerYear">2019-2020</div>
             <div class="spacing">
+                <CardColumns>
                 {
                     photos.map((item, index) => 
-                        <CardDeck>
-                            <Card bg='dark' text='light'>
-                            <Card.Img as={Image} src={item.src} fluid={true} />
-                            <Card.Body>
-                                <Card.Text class="positionCardtext">
-                                {item.caption}
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
-                        </CardDeck>
-
+                        <Card bg='dark' text='light'>
+                        <Card.Img as={Image} src={item.src} fluid={true} />
+                        <Card.Body>
+                            <Card.Text class="positionCardtext">
+                            {item.caption}
+                            </Card.Text>
+                        </Card.Body>
+                        </Card>
                     )    
                 }
+                </CardColumns>
             </div>
             <Footer />
         </div>  
