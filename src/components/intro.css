@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
 
-.titleImage {
-    margin-top: -80px;
-}
-
 .Intro {
     background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
     padding-bottom: 75px;
@@ -27,28 +23,27 @@
 
     .Intro img {
         max-width: 50%;
-        margin-bottom: -50px;
-        margin-top: -30px;
     }
+
     .footer {
         font-size: 1rem;
     }
-
 }
 
 @media (max-width: 1024px) and (min-width: 600px) {
 
     .Intro img {
         max-width: 75%;
-        margin-bottom: -50px;
-        margin-top: -30px;
     }
+
     .display-4 {
         font-size: 2.5rem!important;
     }
+
     .footer {
         font-size: 0.75rem;
     }
+    
     .subHeading {
         font-size: 1.5rem;
     }
@@ -58,18 +53,24 @@
 
     .Intro img {
         max-width: 75%;
-        margin-bottom: -50px;
-        margin-top: -30px;
+        min-width: 90vw;
+        height: unset;
+        margin-left: auto!important;
+        margin-right: auto!important;
     }
+
     .display-4 {
         font-size: 1.5rem!important;
     }
+
     .footer {
         font-size: 0.5rem;
     }
+
     .heading {
         margin-top: 10px;
     }
+
     .subHeading {
         font-size: 1rem;
     }

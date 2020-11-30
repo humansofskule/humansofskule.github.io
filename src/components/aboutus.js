@@ -6,7 +6,6 @@ import { Card, CardColumns } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 import Tabletop from 'tabletop';  
 
-
 const AboutUs = () => {
     const [photos, setphotos] = useState([]);
 
@@ -33,7 +32,7 @@ const AboutUs = () => {
             <h2 class="aboutuscontent">President's Message</h2>
             <div class="video_position">
                 <iframe src="https://drive.google.com/file/d/1oMVAoR_ONMuWGttzk_1y0julWIMcgCO2/preview"
-                width="1000" height="500" allowfullscreen></iframe>
+                 class="videodimensions" allowfullscreen></iframe>
             </div>
             <h2 class="aboutuscontent">Meet our Team</h2>
             <div class="spacing">

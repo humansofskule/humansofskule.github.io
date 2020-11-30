@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, Fragment }  from 'react';
+import React, { useState, useCallback }  from 'react';
 import './intro.css';
 import logo from './image/logo.png';
 import Gallery from "react-photo-gallery";
@@ -8,8 +8,6 @@ import {
     faInstagram,
     faFacebook
   } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Tabletop from 'tabletop';
 
 library.add(
     faInstagram,

@@ -33,3 +33,11 @@ a.button {
     margin-left: 10vw;
     margin-right: 10vw;
 }
+
+@media (max-width: 600px) {
+
+    .btn {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
