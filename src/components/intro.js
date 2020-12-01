@@ -18,7 +18,7 @@ function Intro() {
        
     const photos = [
         {
-          src: "https://drive.google.com/uc?id=0B6tV4E17tBDuTFp5LWliaWIxbFE",
+          src: {img1},
           width: 6,
           height: 4,
           caption: "insert caption"
@@ -90,43 +90,43 @@ function Intro() {
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1pRJ1wP0UH_j6KemLzSyCFbll5FycJqoQ",
+          src: "https://drive.google.com/uc?id=1pRJ1wP0UH_j6KemLzSyCFbll5FycJqoQ",
           width: 2.5,
           height: 4.5,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1SjopZQQFRf6Bi0jA8CcoFo263MEY-L6z",
+          src: "https://drive.google.com/uc?id=1SjopZQQFRf6Bi0jA8CcoFo263MEY-L6z",
           width: 6,
           height: 4,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1KMHvnHzkLG1F2MIENaFLFPGwTNioW22O",
+          src: "https://drive.google.com/uc?id=1KMHvnHzkLG1F2MIENaFLFPGwTNioW22O",
           width: 6,
           height: 3.5,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1d0bRxgaJl_dIBNHOBT9YXXP07CWidGea",
+          src: "https://drive.google.com/uc?id=1d0bRxgaJl_dIBNHOBT9YXXP07CWidGea",
           width: 6,
           height: 3.5,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1xDRxOn7HZL67rTiKuyiCuU7wBl06aS3h",
+          src: "https://drive.google.com/uc?id=1xDRxOn7HZL67rTiKuyiCuU7wBl06aS3h",
           width: 2.5,
           height: 1.5,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=1zmphRKWjSDJMNc_47gu0sHnKS3UBuZiV",
+          src: "https://drive.google.com/uc?id=1zmphRKWjSDJMNc_47gu0sHnKS3UBuZiV",
           width: 4.5,
           height: 3,
           caption: "insert caption"
         },
         {
-          src: "https://drive.google.com/view?id=0B6tV4E17tBDueGlhTzFMZ0VVRm8",
+          src: "https://drive.google.com/uc?id=0B6tV4E17tBDueGlhTzFMZ0VVRm8",
           width: 6,
           height: 3.5,
           caption: "insert caption"

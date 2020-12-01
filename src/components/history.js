@@ -3,7 +3,7 @@ import './history.css';
 import Footer from './footer';
 import Navigation from './navigation';
 import img1 from './image/addyPic1.jpg';
-import img2 from './image/addyPic2.jpg'
+import img2 from './image/addyPic2.jpg';
 
 const History = () => {
 
