@@ -21,7 +21,7 @@
 
 @media(min-width: 1024px) {
 
-    .Intro img {
+    .titleImage {
         max-width: 50%;
     }
 
@@ -32,7 +32,7 @@
 
 @media (max-width: 1024px) and (min-width: 600px) {
 
-    .Intro img {
+    .titleImage {
         max-width: 75%;
     }
 
@@ -51,13 +51,13 @@
 
 @media (max-width: 600px) {
 
-    .Intro img {
-        /* max-width: 75%; */
-        min-width: 90vw;
+    .titleImage {
+        max-width: 75%;
+        /* min-width: 90vw;
         height: unset;
         margin-left: auto!important;
         margin-right: auto!important;
-        /* max-height: 75%; */
+        max-height: 75%; */
     }
 
     .display-4 {
