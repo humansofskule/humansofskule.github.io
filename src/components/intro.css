@@ -57,7 +57,7 @@
         height: unset;
         margin-left: auto!important;
         margin-right: auto!important;
-        max-height: 75%;
+        max-height: 90vh;
     }
 
     .display-4 {
