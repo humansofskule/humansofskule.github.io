@@ -52,12 +52,12 @@
 @media (max-width: 600px) {
 
     .Intro img {
-        max-width: 75%;
+        /* max-width: 75%; */
         min-width: 90vw;
         height: unset;
         margin-left: auto!important;
         margin-right: auto!important;
-        max-height: 75%;
+        /* max-height: 75%; */
     }
 
     .display-4 {
