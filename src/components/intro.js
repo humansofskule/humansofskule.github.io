@@ -18,7 +18,7 @@ function Intro() {
        
     const photos = [
         {
-          src: {img1},
+          src: "https://drive.google.com/uc?id=0B6tV4E17tBDuTFp5LWliaWIxbFE",
           width: 6,
           height: 4,
           caption: "insert caption"
