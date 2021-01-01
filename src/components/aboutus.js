@@ -29,12 +29,13 @@ const AboutUs = () => {
             <Navigation />
             <div class="display-3 header">About Us</div>
             <h3 class="message">We are a photographic journal of the people that make up Skule™</h3>
-            <h2 class="aboutuscontent">President's Message</h2>
+            <h2 class="aboutuscontent">President and Vice President's Message</h2>
             <div class="video_position">
                 <iframe src="https://drive.google.com/file/d/1oMVAoR_ONMuWGttzk_1y0julWIMcgCO2/preview"
                  class="videodimensions" allowfullscreen></iframe>
             </div>
             <h2 class="aboutuscontent">Meet our Team</h2>
+            <h4 class="team">Here's am image gallery introuducing our talented team!</h4>
             <div class="spacing">
                 <CardColumns>
                 {

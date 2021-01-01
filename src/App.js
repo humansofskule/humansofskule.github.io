@@ -6,6 +6,8 @@ import AboutUs from './components/aboutus';
 import History from './components/history';
 import Home from './components/home';
 import Gallery from './components/gallery';
+import Video from './components/video';
+import Workshop from './components/workshop';
 import Year1 from "./components/year1";
 import Year2 from "./components/year2";
 import Year3 from "./components/year3";
@@ -23,6 +25,8 @@ class App extends Component {
                         <Route path="/aboutus" component={AboutUs}/>
                         <Route path="/history" component={History}/>
                         <Route path="/gallery" component={Gallery}/>
+                        <Route path="/video" component={Video}/>
+                        <Route path="/workshop" component={Workshop}/>
                         <Route path="/year1" component={Year1}/>
                         <Route path="/year2" component={Year2}/>
                         <Route path="/year3" component={Year3}/>
