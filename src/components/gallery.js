@@ -7,7 +7,7 @@ const Gallery = () => {
     return ( 
         <div className='Gallery'>
             <Navigation />
-            <div class="display-3 headerGallery">Meet the skuligans!</div>
+            <div class="display-3 headerGallery">Meet the Skuligans!</div>
             <div class="button_position">
                 <a href="/year1" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2016</a>
                 <a href="/year2" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016-2017</a>

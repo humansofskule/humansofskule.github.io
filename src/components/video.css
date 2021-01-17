@@ -28,7 +28,16 @@
     margin-bottom: 40px;
 }
 
-.videos {
+.video1 {
+    display:flex;
+    position:relative;
+    margin:0; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.video2 {
     display:flex;
     position:relative;
     margin:0; 

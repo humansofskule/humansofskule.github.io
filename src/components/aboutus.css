@@ -22,6 +22,10 @@
     min-height: 100vh;
 }
 
+.card {
+    font-family: 'Miriam Libre', sans-serif;
+}
+
 .list {
     font-size: 1.5rem;
     margin-left: 20px;

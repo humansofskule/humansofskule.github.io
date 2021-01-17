@@ -152,7 +152,7 @@ function Intro() {
       <>
     <div className = "Intro" >
       <img src={logo} class="titleImage"></img>
-      <h1 class='display-4 heading'>Welcome to HumansOfSkule!</h1>
+      <h1 class='display-4 heading'>Welcome to Humans Of Skule!</h1>
       <Gallery photos={photos} onClick={openLightbox} />
       <div class="imageIndent">
         <ModalGateway>

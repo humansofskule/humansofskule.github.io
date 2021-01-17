@@ -27,8 +27,9 @@ const History = () => {
                I wouldn't have cancelled my applications to go to film school. Turns out Skulebook also wanted to do this initiative.
                They piloted it the year prior (2014) with great feedback and wanted to start again in 2015 - my first year! 
                So more the reason for me to get this going. Without asking, I grabbed three of my friends in the Track One common room 
-               and interviewed them with my camera. Engineers deserve a spotlight, a beautiful portrait, and a moment to share their life.
-               We are the engineers. We are humans of Skule. - <span>Addy Batia (Mech 1T9 + PEY)</span></p>
+               and interviewed them with my camera.</p>
+               <p>"Engineers deserve a spotlight, a beautiful portrait, and a moment to share their life.
+               We are the engineers. We are humans of Skule." - <span>Addy Batia (Mech 1T9 + PEY)</span></p>
             </div>
             <Footer />
         </div>  
