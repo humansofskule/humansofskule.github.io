@@ -4,6 +4,10 @@ import Footer from './footer';
 import Navigation from './navigation';
 import img1 from './image/addyPic1.jpg';
 import img2 from './image/addyPic2.jpg';
+ 
+
+// Whoever is the webmaster, don't delete this page! We want Addy and his journey to be remembered. 
+// Thanks (- first webmaster)
 
 const History = () => {
 
