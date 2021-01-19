@@ -8,11 +8,7 @@ import {
     faYoutube
   } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-library.add(
-    faInstagram,
-    faFacebook
-);
+import * as Icon from 'react-bootstrap-icons';
                    
 function Intro() {
   

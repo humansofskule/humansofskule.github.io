@@ -20,35 +20,11 @@
     margin-bottom: 40px;
 }
 
-.video1 {
+.v1 {
     display:flex;
     position:relative;
     margin:0; 
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     justify-content: center;
-}
-
-@media(min-width: 1024px) {
-
-    .videodimensions {
-        width: 800px;
-        height: 400px;
-    }
-}
-
-@media (max-width: 1024px) and (min-width: 769px) {
-
-    .videodimensions {
-        width: 600px;
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) and (min-width: 430px) {
-
-    .videodimensions {
-        width: 450px;
-        height: 225px;
-    }
 }

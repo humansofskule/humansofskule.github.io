@@ -10,7 +10,7 @@ const Workshop = () => {
             <Navigation />
             <div class="display-3 header">Workshop</div>
             <h3 class="message">Check out our workshops and events to get more involved</h3>
-            <div class="video1">
+            <div class="v1">
                 <iframe src="https://www.youtube.com/embed/SdvKOaLiD9M"
                  class="videodimensions" allowfullscreen></iframe>
             </div>
