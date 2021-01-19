@@ -153,6 +153,9 @@ function Intro() {
     <div className = "Intro" >
       <img src={logo} class="titleImage"></img>
       <h1 class='display-4 heading'>Welcome to Humans Of Skule!</h1>
+      
+      <h2 class="to_do1">Double click on the pictures to find out more</h2>
+      <h2 class="to_do2">Double click on the pictures and swipe up to find out more</h2>
       <Gallery photos={photos} onClick={openLightbox} />
       <div class="imageIndent">
         <ModalGateway>
