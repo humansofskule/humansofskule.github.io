@@ -4,6 +4,7 @@
     background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
     color: black;
     width: 100;
+    padding-bottom:60px;
     min-height: 100vh;
 }
 
@@ -26,7 +27,7 @@ a.button {
 
 .button_position {
     margin-bottom: 20px;
-    /*text-align: center;*/
+    text-align: center;
 }
 
 .btn {
@@ -36,8 +37,13 @@ a.button {
 
 @media (max-width: 600px) {
 
+    .button_position {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
     .btn {
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 }
