@@ -14,6 +14,7 @@ import Year3 from "./components/year3";
 import Year4 from "./components/year4";
 import Year5 from "./components/year5";
 import Year6 from "./components/year6";
+import Year7 from "./components/year7";
 
 class App extends Component {
     render() {
@@ -33,6 +34,7 @@ class App extends Component {
                         <Route path="/year4" component={Year4}/>
                         <Route path="/year5" component={Year5}/>
                         <Route path="/year6" component={Year6}/>
+                        <Route path="/year7" component={Year7}/>
                     </Switch>
                 </div> 
             </BrowserRouter>

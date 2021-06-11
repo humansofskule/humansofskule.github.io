@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
 
 .Gallery {
-    background-color: rgba(242,136,75,1);
+    background: radial-gradient(circle, rgba(255,198,165,1) 0%, rgba(242,136,75,1) 100%);
     color: black;
     width: 100;
     min-height: 100vh;
@@ -25,8 +25,8 @@ a.button {
 }
 
 .button_position {
-    margin-bottom: 40px;
-    text-align: center;
+    margin-bottom: 20px;
+    /*text-align: center;*/
 }
 
 .btn {
