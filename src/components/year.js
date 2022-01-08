@@ -4,21 +4,24 @@ import Footer from './footer';
 import Navigation from './navigation';
 import { Card, CardColumns } from 'react-bootstrap'; 
 import { Image } from 'react-bootstrap';
-import Tabletop from 'tabletop';  
 
-const Year1 = () => {
+const apiKey = 'AIzaSyBda85QbRqM_dnBnGb7yq9e3BM5XfmzeCY';
+function Year({spreadsheet_key, title}) {
 
     const [photos, setphotos] = useState([]);
 
     useEffect(() => {
-        Tabletop.init({
-        key: '1xiJOJbt70BfJCeX0ke1-mZ4ki3kq9qQWdo5zWqgMy6o',
-        simpleSheet: true
-        })
+        const headers = {
+            'Content-Type': 'application/json', 
+        }
+        fetch('https://sheets.googleapis.com/v4/spreadsheets/' + spreadsheet_key + '?includeGridData=true&key=' + apiKey, { headers })
+        .then(data => data.json())
+        .then(data => data.sheets[0].data[0].rowData.slice(1, data.sheets[0].data[0].rowData.length))
+        .then(data => data.filter(x => Object.keys(x.values[0]).length > 0))
         .then((data) => setphotos(data.map(x => (
-        {
-            src : x.Url,
-            caption: x.Title
+        {   
+            src : x.values[0].hyperlink,
+            caption: x.values[2].formattedValue
         }))))
         .catch((err) => console.warn(err));
     }, []);
@@ -26,7 +29,7 @@ const Year1 = () => {
     return ( 
         <div className='Year'>
             <Navigation />
-            <div class="display-2 headerYear">2017-2018</div>
+            <div class="display-2 headerYear">{title}</div>
             <div class="spacing">
                 <CardColumns>
                 {
@@ -48,4 +51,4 @@ const Year1 = () => {
     );
 }
 
-export default Year1;
+export default Year;
